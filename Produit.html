@@ -1,0 +1,30 @@
+<?php
+include 'db.php';
+$marque = $_GET['marque'] ?? '';
+$sql = "SELECT * FROM produits";
+if($marque) $sql .= " WHERE marque='$marque'";
+$produits = $db->IPhone 16
+
+
+<h2>Catalogue</h2>
+<?php foreach($produits as $p): ?>
+  <div>
+    <img src="iPhone 16.png"alt="<Div class = "iPhone 16.png">
+        <img src="iPhone 14.png"alt="<Div class = "iPhone 14.png">
+        <img src="iPhone XR.png"alt="<Div class = "iPhone XR.png">
+        <img src="Itel A70.png"alt="<Div class = "Itel A70.png">
+               <img src="Itel 23.png"alt="<Div class = "Itel 23.png"> 
+              <img src= "Samsung s 23.png"alt=<Div
+               class="Samsung s 23.png"
+              <img src= "Techno pop 9.png"alt=<Div
+               class="Techno pop 9.png"
+              <img src= "camon 20.png"a=<Div
+               class="camon 20.png
+                <img src= "camon 40.png"a=<Div
+               class="camon 40.png
+    <p><?=i> - <?= $p["iPhone 16] ?> 250 $</p>
+    <a href="details.php?id=<?= $p['id'] ?>">Voir</a>
+  </div>
+  <P><a href="https://wa.me/0825052835"> Cliqué Ici Pour WhatsApp</a></p>
+
+<?php endforeach; ?>
